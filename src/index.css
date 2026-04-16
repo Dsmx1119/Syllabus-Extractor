@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-shell font-sans text-ink antialiased;
+    background-image:
+      radial-gradient(circle at 15% 20%, rgba(198, 243, 106, 0.25), transparent 24%),
+      radial-gradient(circle at 85% 12%, rgba(30, 77, 59, 0.12), transparent 18%),
+      radial-gradient(circle at 80% 75%, rgba(108, 139, 85, 0.10), transparent 22%),
+      linear-gradient(180deg, #fbfaf7 0%, #f3efe4 100%);
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+
+  ::selection {
+    @apply bg-lime text-ink;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply rounded-[28px] border border-white/70 bg-white/80 shadow-soft backdrop-blur;
+  }
+
+  .section-label {
+    @apply inline-flex items-center rounded-full border border-ink/10 bg-white/70 px-4 py-1 text-xs font-semibold uppercase tracking-[0.28em] text-pine/80;
+  }
+}
