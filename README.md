@@ -15,6 +15,9 @@ This repository is currently the local MVP of the project. The long-term goal is
 - Results can be manually edited before export
 - Calendar export works via `.ics`
 
+## Next Step
+- Make this available for public so no local model needs to be implemented
+
 ## What it does
 
 - Upload a syllabus PDF
