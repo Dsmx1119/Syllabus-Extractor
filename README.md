@@ -1,5 +1,7 @@
 # Syllabus Terminator
 
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
 Turn a course syllabus PDF into reviewable, calendar-ready deadlines.
 
 Syllabus Terminator extracts important academic events such as assignments, quizzes, midterms, and exams from a syllabus PDF, lets users manually review and edit the results, and exports everything as an `.ics` file for Google Calendar or other calendar apps.
